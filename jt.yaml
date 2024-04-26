@@ -5,6 +5,6 @@
   connection: local
 
   tasks:
-    - name: debug variable 1
+    - name: debug variable main
       debug:
         var: debug_var
