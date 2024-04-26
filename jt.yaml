@@ -5,14 +5,6 @@
   connection: local
 
   tasks:
-    - name: debug variable
-      debug:
-        var: debug_var
-        
-    - name: Pause for 5 minutes to build app cache
-      ansible.builtin.pause:
-        minutes: 5        
-
-    - name: debug variable
+    - name: debug variable 1
       debug:
         var: debug_var
